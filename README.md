@@ -70,6 +70,30 @@ Técnicamente podría parecer que una “ubicación” es lo mismo que un “lug
 
 Además, esta separación dota de **flexibilidad al sistema**: puedo mantener los lugares tal cual vienen de Google Places, mientras las ubicaciones me permiten definir ámbitos de descarga, búsqueda y navegación, **sin duplicar información ni comprometer el modelo**. El resultado es una arquitectura pensada para **crecer geográficamente, sin rehacer el diseño base**.
 
+Para Probar la Interface debes ingresar un usuario para poderte logear
+el password es admin123
+
+-- Crear usuario con rol ADMIN
+INSERT INTO public.usuario (
+    id,
+    nombre,
+    apellido,
+    email,
+    contrasena,
+    fecha_registro,
+    rol,
+    verificado
+) VALUES (
+    uuid_generate_v4(),
+    'Admin',
+    'Principal',
+    'fer@mapgenda.com',
+    '$2a$10$vMincc2zw/E3PeZZk8cyYeb3CNDuAFk5ZgCpXVAqg5IgBWZH7vx6e',
+    CURRENT_TIMESTAMP,
+    'ADMIN',
+    true
+);
+
 
 
 
