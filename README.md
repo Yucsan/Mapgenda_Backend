@@ -6,7 +6,7 @@ API REST desarrollada en Java con Spring Boot, diseñada para servir como backen
 
 ## 🌐 Arquitectura General
 
-<img src="assets/tecno_back.jpg" width="700"/>
+<img src="assets/estructura.jpg" width="700"/>
 
 ---
 
